@@ -10,7 +10,7 @@ app.use(bodyParser.json()); // needed for post/put requests
 app.use(express.static("server/public"));
 
 /** ---------- EXPRESS ROUTES ---------- **/
-app.use('/api/products', products);
+app.use('/products', products);
 
 
 /** ---------- START SERVER ---------- **/
