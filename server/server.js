@@ -6,11 +6,11 @@ const PORT = 5000;
 
 /** ---------- MIDDLEWARE ---------- **/
 app.use(bodyParser.json()); // needed for post/put requests
-//app.use(express.static('build'));
-app.use(express.static("server/public"));
+app.use(express.static('build'));
+//app.use(express.static("server/public"));
 
 /** ---------- EXPRESS ROUTES ---------- **/
-app.use('/products', products);
+app.use('/api/v1/products', products);
 
 
 /** ---------- START SERVER ---------- **/
