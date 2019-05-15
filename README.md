@@ -19,7 +19,8 @@ I used Node.js and Express to create a route to '/api/v1/products'. From there, 
 * Clone or fork the repo
 * Open locally
 * Run NPM install
-* Create Mongo DB called Target_Products with a collection called products, and with data in mongo_db_data.js file
+* Connect Mongo in Terminal
+* MongoDB should be created in modules/mongo.js. 
 * Test with these product IDs: 54213087, 53518384, 54499196, 11031092
 * An url endopoint would be http://localhost:5000/api/v1/products/53518384. 
 
