@@ -3,7 +3,7 @@ let router = express.Router();
 let axios = require('axios');
 let Target_Product_Prices = require('../modules/mongo');
 
-console.log(`this is target_product_prices,`, Target_Product_Prices)
+//console.log(`this is target_product_prices,`, Target_Product_Prices)
 
 router.get('/:id', async (req, res) => {
 
