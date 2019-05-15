@@ -17,7 +17,7 @@ router.get('/:id', async (req, res) => {
         name = response.data.product.item.product_description.title;
 
             //call mongo db for pricing info
-        let product = await Target_Product_Prices.findOne({ 'product_id': 11031092 });
+        let product = await Target_Product_Prices.findOne({ 'product_id': id });
             //add passed id, name, product price to obj for RESTful service
         let restResponse = {
             "id": id,

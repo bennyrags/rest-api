@@ -8,19 +8,18 @@ I used Node.js and Express to create a route to '/api/v1/products'. From there, 
 
 ## Tech Used
 
-Node.js
-Express
-Axios
-MongoDB
-Mongoose
+-Node.js
+-Express
+-Axios
+-MongoDB
+-Mongoose
 
 ### Instructions to get up and running
 
-Clone or fork the repo
-Open locally
-Run NPM install
-Create Mongo DB
-Test with product IDs from Target. You can find these IDs in the URL of any Target product, after 'A-' (example: 54345304 is the ID in https://www.target.com/p/women-s-round-neck-knit-tank-dress-wild-fable-153-tropic-green/-/A-54345304?preselect=54325067#lnk=sametab)
-
-The url endopoint for the above example is http://localhost:5000/api/v1/products/54345304. 
+-Clone or fork the repo
+-Open locally
+-Run NPM install
+-Create Mongo DB
+-Test with these product IDs: 54213087, 53518384, 54499196, 11031092
+-An url endopoint would be http://localhost:5000/api/v1/products/53518384. 
 
