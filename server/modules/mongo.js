@@ -22,5 +22,11 @@ const target_product_prices_schema = new Schema({
 
 const Target_Product_Prices = mongoose.model('Target_Product_Prices', target_product_prices_schema, 'products');
 
+db.collection.insert(
+  
+    {
+  
+    }
+ )
 
 module.exports = Target_Product_Prices;
